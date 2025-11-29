@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="images/logo.png">
+    <title>واحة الموبايل - الكاميرات</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1 id="head-nav">
+            <a href="index.html"
+              ><i class="fas fa-mobile-alt"></i> واحة الموبايل</a
+            >
+          </h1>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+  <i class="fas fa-bars"></i>
+</div>
+        <ul class="nav-links">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="index.html#categories">الفئات</a></li>
+          <li><a href="index.html#products">المنتجات</a></li>
+          <li><a href="index.html#reviews">التقييمات</a></li>
+          <li><a href="index.html#blog">المدونة</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <div class="search-container">
+            <input type="text" id="searchInput" placeholder="ابحث عن منتج..." />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <button class="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- هيدر الصفحة الداخلية -->
+    <header class="category-header-H">
+      <div class="container-H">
+        <h1>كاميرات الموبايل</h1>
+        <p>اكتشف أحدث الكاميرات لهواتفك الذكية بأسعار تنافسية</p>
+      </div>
+    </header>
+
+    <!-- قسم المنتجات -->
+    <section class="products-section">
+      <div class="products-grid">
+        <!-- منتج 1 -->
+        <div class="product-card">
+          <div class="product-badge">جديد</div>
+          <img
+            src="images/cameras/كانون EOS R5.jpeg"
+            alt="كانون EOS R5"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">كانون EOS R5</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-camera"></i> ميرورليس</span>
+              <span><i class="fas fa-expand"></i> 45 ميجابكسل</span>
+              <span><i class="fas fa-video"></i> 8K</span>
+            </div>
+            <div class="product-price">ريال 12,999</div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 2 -->
+        <div class="product-card">
+          <div class="product-badge">الأكثر مبيعاً</div>
+          <img
+            src="images/cameras/سوني A7 IV.webp"
+            alt="سوني A7 IV"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">سوني A7 IV</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-camera"></i> ميرورليس</span>
+              <span><i class="fas fa-expand"></i> 33 ميجابكسل</span>
+              <span><i class="fas fa-video"></i> 4K</span>
+            </div>
+            <div class="product-price">ريال 9,499</div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 3 -->
+        <div class="product-card">
+          <img
+            src="images/cameras/نيكون D850.jpeg"
+            alt="نيكون D850"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">نيكون D850</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-camera"></i> DSLR</span>
+              <span><i class="fas fa-expand"></i> 45.7 ميجابكسل</span>
+              <span><i class="fas fa-video"></i> 4K</span>
+            </div>
+            <div class="product-price">
+              ريال 8,999 <span class="old-price">ريال 9,799</span>
+            </div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 4 -->
+        <div class="product-card">
+          <div class="product-badge">عرض خاص</div>
+          <img
+            src="images/cameras/فوجي فيلم X-T4.jpeg"
+            alt="فوجي فيلم X-T4"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">فوجي فيلم X-T4</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-camera"></i> ميرورليس</span>
+              <span><i class="fas fa-expand"></i> 26.1 ميجابكسل</span>
+              <span><i class="fas fa-video"></i> 4K</span>
+            </div>
+            <div class="product-price">
+              ريال 6,499 <span class="old-price">ريال 7,199</span>
+            </div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 5 -->
+        <div class="product-card">
+          <img
+            src="images/cameras/جو برو هيرو 11.png"
+            alt="جو برو هيرو 11"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">جو برو هيرو 11</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-video"></i> أكشن كام</span>
+              <span><i class="fas fa-expand"></i> 5.3K</span>
+              <span><i class="fas fa-water"></i> مقاوم للماء</span>
+            </div>
+            <div class="product-price">ريال 2,199</div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 6 -->
+        <div class="product-card">
+          <div class="product-badge">وفر 20%</div>
+          <img
+            src="images/cameras/عدسة كانون 24-70mm.jpg"
+            alt="عدسة كانون 24-70mm"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">عدسة كانون 24-70mm f/2.8</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-camera-retro"></i> عدسة</span>
+              <span><i class="fas fa-aperture"></i> f/2.8</span>
+              <span><i class="fas fa-expand"></i> زوم متغير</span>
+            </div>
+            <div class="product-price">
+              ريال 5,999 <span class="old-price">ريال 7,499</span>
+            </div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>واحة الموبايل</h3>
+          <p>متجرك الإلكتروني لجميع أنواع الهواتف الذكية والإكسسوارات</p>
+        </div>
+        <div class="footer-section">
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="privacy.html" target="_blank">الشروط والأحكام</a></li>
+            <li><a href="terms.html" target="_blank">سياسة الخصوصية</a></li>
+            <li><a href="faq.html" target="_blank">الأسئلة الشائعة</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>تواصل معنا</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://x.com/" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2023 واحة الموبايل. جميع الحقوق محفوظة</p>
+      </div>
+    </footer>
+        <script src="app.js"></script>
+  </body>
+</html>

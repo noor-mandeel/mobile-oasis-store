@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="images/logo.png">
+    <title>واحة الموبايل - آيفون</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1 id="head-nav">
+            <a href="index.html"
+              ><i class="fas fa-mobile-alt"></i> واحة الموبايل</a
+            >
+          </h1>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+  <i class="fas fa-bars"></i>
+</div>
+        <ul class="nav-links">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="index.html#categories">الفئات</a></li>
+          <li><a href="index.html#products">المنتجات</a></li>
+          <li><a href="index.html#reviews">التقييمات</a></li>
+          <li><a href="index.html#blog">المدونة</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <div class="search-container">
+            <input type="text" id="searchInput" placeholder="ابحث عن منتج..." />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <button class="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- هيدر الصفحة الداخلية -->
+    <header class="category-header-H">
+      <div class="container-H">
+        <h1>جوالات أيفون</h1>
+        <p>اكتشف أحدث جوالات الأيفون بأسعار تنافسية</p>
+      </div>
+    </header>
+    <!-- قسم المنتجات -->
+    <section class="products-section">
+      <div class="products-grid">
+        <!-- منتج 1 -->
+        <div class="product-card">
+          <div class="product-badge">جديد</div>
+          <img
+            src="images/iphone/iphone 15 pro .png"
+            alt="آيفون 15 برو"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">آيفون 15 برو ماكس</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-memory"></i> 256GB</span>
+              <span><i class="fas fa-paint-brush"></i> تيتانيوم</span>
+              <span><i class="fas fa-expand"></i> شاشة 6.7 بوصة</span>
+            </div>
+            <div class="product-price">ريال 4,999</div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 2 -->
+        <div class="product-card">
+          <div class="product-badge">الأكثر مبيعاً</div>
+          <img
+            src="images/iphone/iphone 15 .png"
+            alt="آيفون 15"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">آيفون 15</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-memory"></i> 128GB</span>
+              <span><i class="fas fa-paint-brush"></i> أزرق</span>
+              <span><i class="fas fa-expand"></i> شاشة 6.1 بوصة</span>
+            </div>
+            <div class="product-price">ريال 3,999</div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 3 -->
+        <div class="product-card">
+          <img
+            src="images/iphone/iphone 14 pro.png"
+            alt="آيفون 14 برو"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">آيفون 14 برو</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-memory"></i> 256GB</span>
+              <span><i class="fas fa-paint-brush"></i> بنفسجي</span>
+              <span><i class="fas fa-expand"></i> شاشة 6.1 بوصة</span>
+            </div>
+            <div class="product-price">
+              ريال 3,799 <span class="old-price">ريال 4,299</span>
+            </div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 4 -->
+        <div class="product-card">
+          <div class="product-badge">عرض خاص</div>
+          <img
+            src="images/iphone/iphone 13.png"
+            alt="آيفون 13"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">آيفون 13</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-memory"></i> 128GB</span>
+              <span><i class="fas fa-paint-brush"></i> وردي</span>
+              <span><i class="fas fa-expand"></i> شاشة 6.1 بوصة</span>
+            </div>
+            <div class="product-price">
+              ريال 2,999 <span class="old-price">ريال 3,499</span>
+            </div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 5 -->
+        <div class="product-card">
+          <img
+            src="images/iphone/iphone SE .png"
+            alt="آيفون SE"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">آيفون SE 2022</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-memory"></i> 64GB</span>
+              <span><i class="fas fa-paint-brush"></i> أبيض</span>
+              <span><i class="fas fa-expand"></i> شاشة 4.7 بوصة</span>
+            </div>
+            <div class="product-price">ريال 1,999</div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+
+        <!-- منتج 6 -->
+        <div class="product-card">
+          <img
+            src="images/iphone/iphone 12.png"
+            alt="آيفون 12"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-title">آيفون 12</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-memory"></i> 128GB</span>
+              <span><i class="fas fa-paint-brush"></i> أخضر</span>
+              <span><i class="fas fa-expand"></i> شاشة 6.1 بوصة</span>
+            </div>
+            <div class="product-price">
+              ريال 2,499 <span class="old-price">ريال 2,899</span>
+            </div>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الفوتر -->
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>واحة الموبايل</h3>
+          <p>متجرك الإلكتروني لجميع أنواع الهواتف الذكية والإكسسوارات</p>
+        </div>
+        <div class="footer-section">
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="privacy.html" target="_blank">الشروط والأحكام</a></li>
+            <li><a href="terms.html" target="_blank">سياسة الخصوصية</a></li>
+            <li><a href="faq.html" target="_blank">الأسئلة الشائعة</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>تواصل معنا</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://x.com/" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2023 واحة الموبايل. جميع الحقوق محفوظة</p>
+      </div>
+    </footer>
+        <script src="app.js"></script>
+  </body>
+</html>
